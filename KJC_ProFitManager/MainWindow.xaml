@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Bienvenidos al Sistema de KJC-ProFitManager" HorizontalAlignment="Center" Margin="0,146,0,0" VerticalAlignment="Top" Height="38" Width="522" FontFamily="Arial Black" FontSize="20"/>
-        <Label Content="&quot;Keep Joining Challenges&quot;" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="42" Width="236" FontFamily="Arial Narrow" FontSize="20"/>
+        <Label Content="Bienvenidos al Sistema de KJC-ProFitManager" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Height="38" Width="522" FontFamily="Arial Black" FontSize="20"/>
+        <Label Content="&quot;Keep Joining Challenges&quot;" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" Height="42" Width="236" FontFamily="Arial Narrow" FontSize="20"/>
+        <Image HorizontalAlignment="Center" Height="230" Margin="0,151,0,0" VerticalAlignment="Top" Width="238" Source="/Captura de pantalla 2025-09-27 235616.png" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>
