@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KJC_ProFitManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None">
     <Grid>
-        <Label Content="Bienvenidos al Sistema de KJC-ProFitManager" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Height="38" Width="522" FontFamily="Arial Black" FontSize="20"/>
-        <Label Content="&quot;Keep Joining Challenges&quot;" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" Height="42" Width="236" FontFamily="Arial Narrow" FontSize="20"/>
-        <Image HorizontalAlignment="Center" Height="230" Margin="0,151,0,0" VerticalAlignment="Top" Width="238" Source="/Captura de pantalla 2025-09-27 235616.png" Stretch="UniformToFill"/>
+        <Label Content="Bienvenidos al Sistema de KJC-ProFitManager" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Height="38" Width="522" FontFamily="Arial Black" FontSize="20" RenderTransformOrigin="0.505,-0.451"/>
+        <Label Content="&quot;Keep Joining Challenges&quot;" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="42" Width="236" FontFamily="Arial Narrow" FontSize="20"/>
+        <Image HorizontalAlignment="Center" Height="230" Margin="0,124,0,0" VerticalAlignment="Top" Width="238" Source="/Van Damme.png" Stretch="UniformToFill"/>
+        <Button x:Name="BtnIniciar" Content="¡INICIAR AHORA!" HorizontalAlignment="Center" Margin="0,367,0,0" VerticalAlignment="Top" Height="50" Width="522" FontFamily="Arial Black" FontSize="20" Background="#FF4A6CF1" Click="BtnIniciar_Click"/>
 
     </Grid>
 </Window>

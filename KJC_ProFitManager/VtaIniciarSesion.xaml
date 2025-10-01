@@ -1,0 +1,21 @@
+﻿<Window x:Class="KJC_ProFitManager.VtaIniciarSesion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KJC_ProFitManager"
+        mc:Ignorable="d"
+        Title="VtaIniciarSesion" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="87*"/>
+            <ColumnDefinition Width="313*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="131" Grid.Column="1" FontFamily="Arial Black" FontSize="20" Background="#FFB0F327" Click="btnRegresar_Click"/>
+        <Button x:Name="btnSalir" Grid.Column="1" Content="Salir" HorizontalAlignment="Left" Margin="313,0,0,0" VerticalAlignment="Center" Height="84" Width="143" Background="#FFF33C12" FontFamily="Arial Black" FontSize="20" Click="btnSalir_Click"/>
+
+    </Grid>
+</Window>

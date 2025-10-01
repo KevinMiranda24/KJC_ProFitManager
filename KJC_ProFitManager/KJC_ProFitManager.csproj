@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Captura de pantalla 2025-09-27 235616.png" />
+    <None Remove="Van Damme.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Captura de pantalla 2025-09-27 235616.png" />
+    <Resource Include="Van Damme.png" />
   </ItemGroup>
 
 </Project>
