@@ -18,6 +18,7 @@
         <Button x:Name="btnSalir" Grid.Column="1" Content="Salir" HorizontalAlignment="Left" Margin="313,0,0,0" VerticalAlignment="Center" Height="84" Width="143" Background="#FFF33C12" FontFamily="Arial Black" FontSize="20" Click="btnSalir_Click"/>
         <Label Grid.Column="1" Content="El mejor sistema del mundo mundial&#xD;&#xA;" HorizontalAlignment="Left" Margin="226,73,0,0" VerticalAlignment="Top" Width="214"/>
         <Label Grid.Column="1" Content="Sistema de gym papus" HorizontalAlignment="Left" Height="44" Margin="61,42,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label Grid.Column="1" Content="El gym con  pesas de oro" HorizontalAlignment="Left" Height="70" Margin="206,334,0,0" VerticalAlignment="Top" Width="264"/>
 
     </Grid>
 </Window>
