@@ -16,8 +16,8 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="btnRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="131" Grid.Column="1" FontFamily="Arial Black" FontSize="20" Background="#FFB0F327" Click="btnRegresar_Click"/>
         <Button x:Name="btnSalir" Grid.Column="1" Content="Salir" HorizontalAlignment="Left" Margin="313,0,0,0" VerticalAlignment="Center" Height="84" Width="143" Background="#FFF33C12" FontFamily="Arial Black" FontSize="20" Click="btnSalir_Click"/>
-        <Label Grid.Column="1" Content="Hola a todos" HorizontalAlignment="Left" Margin="226,73,0,0" VerticalAlignment="Top"/>
-        <Label Grid.Column="1" Content="Proyecto KCJ" HorizontalAlignment="Left" Height="44" Margin="61,42,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label Grid.Column="1" Content="El mejor sistema del mundo mundial&#xD;&#xA;" HorizontalAlignment="Left" Margin="226,73,0,0" VerticalAlignment="Top" Width="214"/>
+        <Label Grid.Column="1" Content="Buenas tardes" HorizontalAlignment="Left" Height="44" Margin="61,42,0,0" VerticalAlignment="Top" Width="103"/>
 
     </Grid>
 </Window>
