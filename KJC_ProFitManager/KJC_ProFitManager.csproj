@@ -9,11 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Imagenes\FondoGym.png" />
     <None Remove="Van Damme.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Van Damme.png" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\FondoGym.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

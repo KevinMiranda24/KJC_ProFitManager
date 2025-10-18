@@ -21,5 +21,10 @@ namespace KJC_ProFitManager
 			// Cerrar la ventana actual para que no quede encima de la otra.
 			this.Close();
 		}
-	}
+
+        private void BtnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
 }

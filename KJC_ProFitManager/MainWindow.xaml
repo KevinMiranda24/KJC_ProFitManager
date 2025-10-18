@@ -5,15 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KJC_ProFitManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="KJC-SmartFit" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         WindowStyle="None">
     <Grid>
-        <Label Content="Bienvenidos al Sistema de KJC-SmartFit" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Height="38" Width="522" FontFamily="Arial Black" FontSize="20" RenderTransformOrigin="0.505,-0.451"/>
-        <Label Content="&quot;Keep Joining Challenges&quot;" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="42" Width="236" FontFamily="Arial Narrow" FontSize="20"/>
-        <Image HorizontalAlignment="Center" Height="230" Margin="0,124,0,0" VerticalAlignment="Top" Width="238" Source="/Van Damme.png" Stretch="UniformToFill"/>
-        <Button x:Name="BtnIniciar" Content="¡INICIAR AHORA!" HorizontalAlignment="Center" Margin="0,367,0,0" VerticalAlignment="Top" Height="50" Width="522" FontFamily="Arial Black" FontSize="20" Background="#FF4A6CF1" Click="BtnIniciar_Click"/>
+        <!-- Fondo con blur -->
+        <Image Source="/Imagenes/FondoGym.png" Stretch="UniformToFill" Panel.ZIndex="0">
+            <Image.Effect>
+                <BlurEffect Radius="1"/>
+            </Image.Effect>
+        </Image>
 
+
+        <Rectangle Fill="#40000000" Panel.ZIndex="1"/>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Panel.ZIndex="2" >
+            <TextBlock Text="Bienvenidos al Sistema de KJC-SmartFit" 
+                       FontFamily="Arial Black" 
+                       FontSize="22" 
+                       Foreground="LightBlue" 
+                       TextAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <TextBlock Text="&quot;Keep Joining Challenges&quot;" 
+                       FontFamily="Arial Black" 
+                       FontSize="18" 
+                       Foreground="DarkOrange" 
+                       TextAlignment="Center"
+                       Margin="0,0,0,30"/>
+
+            <Button x:Name="BtnIniciar" 
+                    Content="¡INICIAR AHORA!" 
+                    FontFamily="Arial Black" 
+                    FontSize="20" 
+                    Background="#FF4A6CF1" 
+                    Foreground="White" 
+                    Padding="10"
+                    Width="300"
+                    Click="BtnIniciar_Click"/>
+        </StackPanel>
+
+        <Button Content="X" 
+                Width="30" Height="30"
+                HorizontalAlignment="Right" VerticalAlignment="Top" 
+                Margin="10"
+                Background="Transparent" 
+                Foreground="White" 
+                FontWeight="Bold"
+                BorderBrush="Transparent"
+                Click="BtnCerrar_Click"
+                Panel.ZIndex="1"/>
     </Grid>
 </Window>
